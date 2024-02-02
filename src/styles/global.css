@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 /* Prevent font size inflation */
 html {
   -moz-text-size-adjust: none;
@@ -89,7 +90,9 @@ textarea:not([rows]) {
 }
 
 html {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+/*   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+  font-family: 'General Sans', sans-serif;
+
   font-size: 1.125em;
   max-width: 40rem;
   padding: 2rem;
